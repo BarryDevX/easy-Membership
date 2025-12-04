@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="evenements.css">
+  </head>
+  <body>
+     <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+              <span class="text-danger">Easy</span> Membership
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link nav-hover" href="accueil.html">Accueil</a>
+                    </li>
+                    <!-- Association -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-hover" href="#" id="assoDrop" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Association
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="assoDrop">
+                            <li><a class="dropdown-item" href="activites.html">Nos Activités</a></li>
+                            <li><a class="dropdown-item" href="evenements.html">Nos Événements</a></li>
+                            <li><a class="dropdown-item" href="actualites.html">Nos Actualités</a></li>
+                        </ul>
+                    </li>
+                    <!-- Vous êtes Aidant -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-hover" href="#" id="aidDrop" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Vous Êtes Aidant
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="aidDrop">
+                            <li><a class="dropdown-item" href="../aidant/adherer.html">Adhérer</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link nav-hover" href="../contact/contact.html">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="btn btn-danger text-uppercase fw-bold ms-3 px-4 py-2 d-flex align-items-center"
+                            href="../aidant/adherer.html">
+                            <i class="bi bi-person-circle me-2"></i> ADHÉRER
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    </header>
+
+<section class="header-section mt-5 d-flex justify-content-center align-items-center">
+    <div class="text-center text-white mt-5">
+        <h2>Nous Avons Réalisé Plus De 20 Projets</h2>
+        <p><a href="#" class="text-white-50">Accueil</a> / <span class="text-danger">Association</span></p>
+    </div>
+</section>
+
+<!-- SECTION FILTRES -->
+<div class="container text-center mb-5 mt-5 my-4">
+    <div class="btn-group d-flex w-200">
+        <button class="btn fw-bold btn-danger">Voir Tout</button>
+        <button class="btn btn1 fw-bold">Financier</button>
+        <button class="btn btn1 fw-bold">Commercialisation</button>
+        <button class="btn btn1 fw-bold">Entreprise</button>
+    </div>
+</div>
+
+<!-- SECTION GALERIE -->
+<div class="container gallery">
+    <div class="row g-3">
+        <!-- Image 1 -->
+        <div class="col-md-4">
+            <div class="img-box">
+                <img src="../assets/hamidou/img10.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+
+        <!-- Image 2 avec bordure bleue -->
+        <div class="col-md-4">
+            <div class="img-box">
+                <img src="../assets/hamidou/img7.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+
+        <!-- Image 3 -->
+        <div class="col-md-4">
+            <div class="img-box">
+                <img src="../assets/hamidou/img4.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+
+        <!-- LIGNE 2 -->
+        <div class="col-md-4">
+            <div class="img-box">
+                <img src="../assets/hamidou/img8.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="img-box">
+                <img src="../assets/hamidou/img12.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="img-box">
+                <img src="../assets/hamidou/img1.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+
+        <!-- LIGNE 3 -->
+        <div class="col-md-4">
+            <div class="img-box">
+                <img src="../assets/hamidou/img3.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-5">
+            <div class="img-box">
+                <img src="../assets/hamidou/img5.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="img-box">
+                <img src="../assets/hamidou/img2.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    <!-- FOOTER -->
+<footer class="footer-section mt-5 pt-5 pb-3">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3 mb-4">
+                <h4 class="fw-bold text-white">
+                    <span class="text-danger">Easy</span> Membership
+                </h4>
+
+                <p class="text-white-50 small mt-3">
+                    Nous aidons les associations à simplifier leur gestion grâce à
+                    des outils modernes, rapides et adaptés à leurs besoins.
+                </p>
+
+                <div class="d-flex gap-3 mt-3">
+                    <i class="bi bi-facebook text-danger fs-5"></i>
+                    <i class="bi bi-twitter text-danger fs-5"></i>
+                    <i class="bi bi-instagram text-danger fs-5"></i>
+                    <i class="bi bi-linkedin text-danger fs-5"></i>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <h6 class="text-white fw-bold">Liens Vers Les Pages</h6>
+                <ul class="list-unstyled mt-3 footer-links">
+                    <li><a href="#">Accueil</a></li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-hover" href="#" id="assoDrop" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Association
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="assoDrop">
+                            <li><a class="dropdown-item" href="activites.html">Nos Activités</a></li>
+                            <li><a class="dropdown-item" href="evenements.html">Nos Événements</a></li>
+                            <li><a class="dropdown-item" href="actualites.html">Nos Actualités</a></li>
+                        </ul>
+                    </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-hover" href="#" id="aidDrop" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Vous Êtes Aidant
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="aidDrop">
+                            <li><a class="dropdown-item" href="../aidant/adherer.html">Adhérer</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <h6 class="text-white fw-bold">Post Récent</h6>
+
+                <div class="footer-post d-flex mt-3">
+                    <img src="../assets/hamidou/hero3.jpeg" class="footer-post-img" alt="">
+                    <div class="ms-2 small text-white-50">
+                        <p class="mb-1 text-white">Conseils Pour Réussir En Association</p>
+                        <small>03 decembre 2025</small>
+                    </div>
+                </div>
+
+                <div class="footer-post d-flex mt-3">
+                    <img src="../assets/hamidou/hero2.jpeg" class="footer-post-img" alt="">
+                    <div class="ms-2 small text-white-50">
+                        <p class="mb-1 text-white">Conseils Pour Réussir En Association</p>
+                        <small>02 decembre 2025</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <h6 class="text-white fw-bold">Photos Récentes</h6>
+
+                <div class="row g-2 mt-3">
+                    <div class="col-4"><img src="../assets/hamidou/hero2.jpeg" class="footer-photo" alt=""></div>
+                    <div class="col-4"><img src="../assets/hamidou/design.jpeg" class="footer-photo" alt=""></div>
+                    <div class="col-4"><img src="../assets/hamidou/hero3.jpeg" class="footer-photo" alt=""></div>
+                    <div class="col-4"><img src="../assets/hamidou/dev.jpeg" class="footer-photo" alt=""></div>
+                    <div class="col-4"><img src="../assets/hamidou/mark.jpeg" class="footer-photo" alt=""></div>
+                    <div class="col-4"><img src="../assets/hamidou/hero.jpeg" class="footer-photo" alt=""></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-center text-white-50 mt-4 small">
+            ©️ 2025 <span class="text-danger">Easy Membership</span>. Tous droits réservés.
+        </div>
+
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
