@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,10 +13,12 @@
     <!-- Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="adherer.css" rel="stylesheet">
+    <link href="accueil.css" rel="stylesheet">
 </head>
+
 <body>
-        <!-- SECTION NAVBAR -->
+
+    <!-- SECTION NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top">
 
         <div class="container">
@@ -33,7 +36,7 @@
                 <ul class="navbar-nav gap-3">
 
                     <li class="nav-item">
-                        <a class="nav-link nav-hover" href="../accueil/accueil.html">Accueil</a>
+                        <a class="nav-link nav-hover" href="accueil.html">Accueil</a>
                     </li>
 
                     <!-- Association -->
@@ -56,7 +59,7 @@
                             Vous Êtes Aidant
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="aidDrop">
-                            <li><a class="dropdown-item" href="#">Adhérer</a></li>
+                            <li><a class="dropdown-item" href="../aidant/adherer.html">Adhérer</a></li>
                         </ul>
                     </li>
 
@@ -66,7 +69,7 @@
 
                     <li class="nav-item">
                         <a class="btn btn-danger text-uppercase fw-bold ms-3 px-4 py-2 d-flex align-items-center"
-                            href="#">
+                            href="../aidant/adherer.html">
                             <i class="bi bi-person-circle me-2"></i> ADHÉRER
                         </a>
                     </li>
@@ -77,171 +80,122 @@
         </div>
     </nav>
 
-    <!-- Bannière -->
-    <section class="banner">
-        <div class="banner-content">
-            <h1>Adhérer A Notre Plateforme</h1>
-            <p><a href="../accueil/accueil.html">Accueil</a> / <span style="color: #dc3545 ;">Vous Êtes Adhérant</span> </p>
+    <!-- SECTION HERO -->
+    <section class="hero d-flex align-items-center">
+        <div class="container hero-content ">
+            <h1 class="display-3 fw-bold">Facilitez la Gestion<br>de Votre Association</h1>
+            <p class="mt-3">Une plateforme simple, moderne et efficace.</p>
+
+            <div class="mt-4 d-flex  gap-3">
+                <a href="../aidant/adherer.html" class="btn btn-light px-4 py-2 fw-bold">Commencer</a>
+                <div class="btn-video">
+                    <i class="bi bi-play-fill"></i>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- SECTION ADHERER -->
-<section class="py-5" style="background:#f6f8fb;">
-    <div class="container" style="max-width: 1100px; margin:auto;">
+    <!-- SECTION SERVICES -->
 
-        <div class="row justify-content-center">
+    <section class="services text-white">
+        <div class="container">
 
-            <!-- COLONNE FORMULAIRE (réduite) -->
-            <div class="col-lg-7">
+            <div class="row g-4">
 
-                <div class="bg-white p-4 rounded shadow-sm">
-                    <h5 class="fw-bold mb-1">Association Sénégalaise des Aidants 2023</h5>
-                    <p class="mb-2">
-                        par <a href="#" class="text-danger fw-semibold">Association Sénégalaise des Aidants</a>
-                    </p>
-                    <p class="text-muted small">
-                        🕘 Adhésion valable du 01 décembre 2025 au 31 décembre 2026
-                    </p>
-                    <p class="mb-0">
-                        En adhérant à notre association, vous rejoignez une communauté engagée. 
-                        Consultez ci-dessous nos tarifs et conditions.
-                    </p>
-                </div>
-
-                <!-- ONGLET -->
-                <div class="bg-white mt-3 p-0 rounded shadow-sm">
-                    <ul class="nav nav-tabs px-3 pt-3 small">
-                        <li class="nav-item">
-                            <a class="nav-link active fw-semibold" href="#">📝 Choix de l’adhésion</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fw-semibold text-muted" href="#">👥 Adhérents</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fw-semibold text-muted" href="#">📍 Coordonnées</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fw-semibold text-muted" href="#">📦 Récapitulatif</a>
-                        </li>
-                    </ul>
-
-                    <div class="p-3 small">
-
-                        <!-- ADHESION 1 -->
-                        <div class="border rounded p-3 mb-3">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div>
-                                    <h6 class="fw-bold mb-1">Adhésion personne physique</h6>
-                                    <p class="text-muted small mb-0">
-                                        Votre don ne vous coûtera que 3.500 F après réduction fiscale.
-                                    </p>
-                                </div>
-                                <div class="d-flex align-items-center">
-                                    <span class="fw-bold me-3">5.000 F</span>
-                                    <button class="btn btn-outline-secondary btn-sm">−</button>
-                                    <input type="text" style="width:35px;" class="mx-1 text-center" value="0">
-                                    <button class="btn btn-outline-secondary btn-sm">+</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- ADHESION 2 -->
-                        <div class="border rounded p-3 mb-3">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <h6 class="fw-bold mb-0">Adhésion ASSOCIATION</h6>
-                                <div class="d-flex align-items-center">
-                                    <span class="fw-bold me-3">00 F</span>
-                                    <button class="btn btn-outline-secondary btn-sm">−</button>
-                                    <input type="text" style="width:35px;" class="mx-1 text-center" value="0">
-                                    <button class="btn btn-outline-secondary btn-sm">+</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- ADHESION 3 -->
-                        <div class="border rounded p-3 mb-3">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div>
-                                    <h6 class="fw-bold mb-1">Adhésion ENTREPRISE</h6>
-                                    <p class="text-muted small mb-0">Personne morale à but lucratif</p>
-                                </div>
-                                <div class="d-flex align-items-center">
-                                    <span class="fw-bold me-3">50.000 F</span>
-                                    <button class="btn btn-outline-secondary btn-sm">−</button>
-                                    <input type="text" style="width:35px;" class="mx-1 text-center" value="0">
-                                    <button class="btn btn-outline-secondary btn-sm">+</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- DON LIBRE -->
-                        <div class="border rounded p-3 mb-3">
-                            <h6 class="fw-bold">Faire un don sans adhérer — Prix libre</h6>
-                            <p class="text-muted small">Reçu fiscal fourni</p>
-
-                            <div class="d-flex align-items-center">
-                                <input type="text" class="form-control w-auto" placeholder="--,--" style="max-width:90px;">
-                                <span class="mx-2 fw-bold">F</span>
-                                <button class="btn btn-outline-secondary btn-sm">−</button>
-                                <input type="text" style="width:35px;" class="mx-1 text-center" value="0">
-                                <button class="btn btn-outline-secondary btn-sm">+</button>
-                            </div>
-                        </div>
-
-                        <!-- DON SUPPLEMENTAIRE -->
-                        <div class="mb-3">
-                            <h6 class="fw-bold">Souhaitez-vous faire un don supplémentaire ?</h6>
-
-                            <div class="small ps-2">
-                                <label class="me-3"><input type="radio" name="don" checked> Pas de don</label>
-                                <label class="me-3"><input type="radio" name="don"> 5.000 F</label>
-                                <label class="me-3"><input type="radio" name="don"> 1.000 F</label>
-                                <label class="me-3"><input type="radio" name="don"> 500 F</label>
-
-                                <div class="mt-2">
-                                    <input type="text" placeholder="Montant de votre choix" class="form-control" style="max-width:200px;">
-                                </div>
-                            </div>
-                        </div>
-
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <i class="bi bi-people fs-1 text-danger"></i>
+                        <h5 style="color: #021738;"  class="mt-3 fw-bolder">Gestion des Membres</h5>
+                        <p class="text-secondary fw-bold">Organisez vos membres et accédez à leurs informations facilement.</p>
                     </div>
                 </div>
 
-                <!-- TOTAL -->
-                <div class="bg-danger text-white fw-bold text-center rounded py-2 small mt-3">
-                    Montant total : 0 F
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <i class="bi bi-calendar-event fs-1 text-danger"></i>
+                        <h5 style="color: #021738;" class="mt-3 fw-bolder">Événements</h5>
+                        <p class="text-secondary fw-bold">Planifiez et partagez vos événements en toute simplicité.</p>
+                    </div>
                 </div>
 
-                <div class="text-end mt-3 mb-5">
-                    <button class="btn btn-secondary px-4">Étape suivante →</button>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <i class="bi bi-folder2-open fs-1 text-danger"></i>
+                        <h5 style="color: #021738;"  class="mt-3 fw-bolder">Documents</h5>
+                        <p class="text-secondary fw-bold">Centralisez vos fichiers et documents importants.</p>
+                    </div>
                 </div>
+
+            </div>
+        </div>
+    
+    </section>
+
+   <!--QUI SOMMES NOUS -->
+
+<section class="about-section py-5">
+    <div class="container">
+        <div class="row align-items-start">
+
+            <div class="col-md-6 pe-md-5">
+
+                <p class="text-danger fw-semibold mb-2">Qui Sommes Nous</p>
+
+                <h2 class="fw-bold mb-4">
+                    Excellents services pour<br>
+                    les associations et les aidants
+                </h2>
+
+                <div class="d-flex align-items-center mb-4">
+                    <img src="../assets/thierno/icon1.png" class="me-2 service-icon" alt="">
+                    <h6 class="fw-bold mb-0">Notre mission : simplifier votre quotidien associatif</h6>
+                </div>
+
+                <p class="text-muted mb-4">
+                    Easy Membership accompagne les associations dans leur gestion
+                    quotidienne. Notre mission est de simplifier vos processus,
+                    renforcer vos équipes et offrir des outils modernes adaptés à vos besoins.
+                </p>
+
+                
+
+                 <div class="d-flex align-items-center mb-4">
+                    <img src="../assets/thierno/icon2.png" class="me-2 service-icon" alt="">
+                    <h6 class="fw-bold mb-0">Innovation et accompagnement au service des associations</h6>
+                </div>
+
+                <p class="text-muted mb-4">
+                    Notre équipe met l’accent sur l’innovation, l’efficacité et
+                    l’accompagnement humain afin que chaque association puisse travailler
+                    dans les meilleures conditions.
+                </p>
+
+                
+
+                <button class="btn btn-danger px-4 py-2 fw-semibold">
+                    En Savoir Plus
+                </button>
+
             </div>
 
-            <!-- COLONNE DROITE (réduite aussi) -->
-            <div class="col-lg-4">
+            <div class="col-md-6">
 
-                <div class="bg-white p-3 rounded shadow-sm small mb-3">
-                    <h5 class="fw-bold text-danger">2 730 F <span class="text-muted small">collectés</span></h5>
-                    <p class="small text-muted mb-1">⏳ Fin dans 53 jours</p>
-                    <p class="small text-muted">👥 64 adhérents</p>
+                <img src="../assets/thierno/img.png" class="img-fluid rounded mb-3 w-100" alt="">
 
-                    <hr>
+                <div class="row g-3">
 
-                    <p class="fw-semibold small mb-1">Partager</p>
-                    <div class="d-flex">
-                        <button class="btn btn-primary btn-sm me-2"><i class="bi bi-facebook"></i></button>
-                        <button class="btn btn-info btn-sm me-2"><i class="bi bi-twitter"></i></button>
-                        <button class="btn btn-primary btn-sm me-2"><i class="bi bi-linkedin"></i></button>
+                    <div class="col-6">
+                        <img src="../assets/thierno/hero3.jpeg" class="img-fluid rounded w-100" alt="">
                     </div>
-                </div>
 
-                <div class="bg-white p-3 rounded shadow-sm small">
-                    <h6 class="fw-bold mb-2">Plateforme sécurisée</h6>
-                    <p class="small text-muted">
-                        Paiements sécurisés grâce au cryptage SSL.  
-                        Vos données ne sont jamais stockées.
-                    </p>
-                    <img src="../assets/thierno/payment-cards.png" class="img-fluid mt-2" style="max-width:100px;">
+                    <div class="col-6">
+                        <div class="about-blue-box p-4 rounded h-100 d-flex flex-column justify-content-center">
+                            <h6 class="text-white fw-bold mb-2">Entreprise</h6>
+                            <p class="text-white mb-3 small">Programme d’éthique</p>
+                            <img src="../assets/thierno/trophy.png" class="blue-box-icon bg-white" alt="">
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
@@ -251,8 +205,184 @@
 </section>
 
 
+<!-- NOS SERVICES -->
+<section class="py-5 bg-light-blue">
+    <div class="container text-center">
 
-    
+        <p class="text-danger fw-bold">Nos Services</p>
+
+        <h2 class="fw-bold text-primary-dark mb-5">
+            Nous Sommes La Meilleure Offre De Services<br>
+            Pour Les Associations Et Les Aidants
+        </h2>
+
+        <div class="row justify-content-center g-5">
+
+            <!-- Service 1 -->
+            <div class="col-md-4">
+                <img src="../assets/thierno/design.jpeg" class="service-img" alt="Conception App">
+                <br><br>
+                <div class="service-card shadow-sm">
+                    <p class="text-danger fw-bold m-0">Design</p>
+                    <h4 class="fw-bold text-primary-dark">Conception App</h4>
+                    <p class="text-secondary small">
+                        Nous créons des interfaces simples et élégantes pour faciliter l’expérience de vos membres.
+                    </p>
+
+                    <div class="d-flex justify-content-center">
+                        <div class="btn-circle">
+                            <i class="bi bi-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="col-md-4">
+                <img src="../assets/thierno/mark.jpeg" class="service-img" alt="Recherche Marketing">
+                <br><br>
+                <div class="service-card shadow-sm">
+                    <p class="text-danger fw-bold m-0">Marketing</p>
+                    <h4 class="fw-bold text-primary-dark">Étude & Stratégie</h4>
+                    <p class="text-secondary small">
+                        Nous analysons les besoins de votre communauté pour renforcer l’engagement de vos adhérents.
+                    </p>
+
+                    <div class="d-flex justify-content-center">
+                        <div class="btn-circle">
+                            <i class="bi bi-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="col-md-4">
+                <img src="../assets/thierno/dev.jpeg" class="service-img" alt="Développement Web">
+                <br><br>
+                <div class="service-card shadow-sm">
+                    <p class="text-danger fw-bold m-0">Développement</p>
+                    <h4 class="fw-bold text-primary-dark">Développement Web</h4>
+                    <p class="text-secondary small">
+                        Nous développons des outils modernes pour automatiser la gestion de votre association.
+                    </p>
+
+                    <div class="d-flex justify-content-center">
+                        <div class="btn-circle">
+                            <i class="bi bi-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="mt-5">
+            <a href="aidant/adherer.html" class="btn btn-danger px-5 py-3 fw-bold">
+                Nous rejoindre
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- NOTRE ÉQUIPE -->
+<section class="team-section py-5">
+    <div class="container w-45">
+
+        <h6 class="text-center text-danger fw-bold">Les Membres De Notre Équipe</h6>
+        <h2 class="text-center fw-bold mb-5">
+            L’expérience Concrète À La Rencontre Des<br>
+            Employés De L’équipe
+        </h2>
+
+        <div class="row g-4">
+
+            <!-- MEMBRE 1 -->
+            <div class="col-md-6">
+                <div class="d-flex p-3 shadow-sm bg-white rounded-3">
+                    <img src="../assets/thierno/hero2.jpg" class="rounded me-3" width="110" height="110" alt="">
+                    <div>
+                        <h5 class="fw-bold mb-1">Ba Kalika</h5>
+                        <p class="text-muted mb-1">Fondateur</p>
+                        <p class="small text-muted">
+                            Expert en transformation digitale des associations, il accompagne
+                            les équipes dans l’organisation et l’automatisation de leurs tâches.
+                        </p>
+                        <div>
+                            <i class="bi bi-facebook me-2"></i>
+                            <i class="bi bi-linkedin me-2"></i>
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MEMBRE 2 -->
+            <div class="col-md-6">
+                <div class="d-flex p-3 shadow-sm bg-white rounded-3">
+                    <img src="../assets/thierno/hero2.jpg" class="rounded me-3" width="110" height="110" alt="">
+                    <div>
+                        <h5 class="fw-bold mb-1">Barry Thierno</h5>
+                        <p class="text-muted mb-1">Responsable Support</p>
+                        <p class="small text-muted">
+                            Véritable passionné par l’accompagnement humain,
+                            il aide les associations à prendre en main la plateforme.
+                        </p>
+                        <div>
+                            <i class="bi bi-facebook me-2"></i>
+                            <i class="bi bi-linkedin me-2"></i>
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MEMBRE 3 -->
+            <div class="col-md-6">
+                <div class="d-flex p-3 shadow-sm bg-white rounded-3">
+                    <img src="../assets/thierno/hero2.jpg" class="rounded me-3" width="110" height="110" alt="">
+                    <div>
+                        <h5 class="fw-bold mb-1">Anne Hamidou</h5>
+                        <p class="text-muted mb-1">Designer UX/UI</p>
+                        <p class="small text-muted">
+                            Il conçoit des interfaces modernes et accessibles
+                            pour simplifier la vie des bénévoles et des adhérents.
+                        </p>
+                        <div>
+                            <i class="bi bi-facebook me-2"></i>
+                            <i class="bi bi-linkedin me-2"></i>
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MEMBRE 4 -->
+            <div class="col-md-6">
+                <div class="d-flex p-3 shadow-sm bg-white rounded-3">
+                    <img src="../assets/thierno/hero2.jpg" class="rounded me-3" width="110" height="110" alt="">
+                    <div>
+                        <h5 class="fw-bold mb-1"> Lena</h5>
+                        <p class="text-muted mb-1">Développeur Web</p>
+                        <p class="small text-muted">
+                            Spécialiste logiciel, il développe des outils fiables pour
+                            optimiser la gestion des associations au quotidien.
+                        </p>
+                        <div>
+                            <i class="bi bi-facebook me-2"></i>
+                            <i class="bi bi-linkedin me-2"></i>
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
 <!-- ADHÉSION EN LIGNE RAPIDE -->
 <section class="adhesion-section py-5">
     <div class="container">
@@ -469,8 +599,7 @@
     </div>
 </section>
 
-
-    <!-- FOOTER -->
+<!-- FOOTER -->
 <footer class="footer-section pt-5 pb-3">
     <div class="container">
 
@@ -504,9 +633,9 @@
                             Association
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="assoDrop">
-                            <li><a class="dropdown-item" href="association/activites.html">Nos Activités</a></li>
-                            <li><a class="dropdown-item" href="association/evenements.html">Nos Événements</a></li>
-                            <li><a class="dropdown-item" href="association/actualites.html">Nos Actualités</a></li>
+                            <li><a class="dropdown-item" href="../association/activites.html">Nos Activités</a></li>
+                            <li><a class="dropdown-item" href="../association/evenements.html">Nos Événements</a></li>
+                            <li><a class="dropdown-item" href="../association/actualites.html">Nos Actualités</a></li>
                         </ul>
                     </li>
                      <li class="nav-item dropdown">
@@ -515,10 +644,10 @@
                             Vous Êtes Aidant
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="aidDrop">
-                            <li><a class="dropdown-item" href="aidant/adherer.html">Adhérer</a></li>
+                            <li><a class="dropdown-item" href="../aidant/adherer.html">Adhérer</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="../contact/contact.html">Contact</a></li>
                     <li><a href="#">FAQ</a></li>
                 </ul>
             </div>
@@ -545,7 +674,7 @@
 
             <div class="col-md-3 mb-4">
                 <h6 class="text-white fw-bold">Photos Récentes</h6>
-
+ 
                 <div class="row g-2 mt-3">
                     <div class="col-4"><img src="../assets/thierno/hero2.jpg" class="footer-photo" alt=""></div>
                     <div class="col-4"><img src="../assets/thierno/design.jpeg" class="footer-photo" alt=""></div>
@@ -574,4 +703,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>

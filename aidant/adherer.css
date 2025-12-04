@@ -1,0 +1,197 @@
+        /* NAVBAR CUSTOM STYLE */
+
+.nav-hover:hover {
+            color: #dc3545 !important;
+        }
+
+        .dropdown-item:hover {
+            color: #dc3545 !important;
+            background-color: #f8f9fa !important;
+        }
+
+
+.banner {
+    background :url('../assets/thierno/banner-img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-content h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.banner-content p {
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+.banner-content p a {
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+
+   .adhesion-section {
+        position: relative;
+    }
+
+    .adhesion-img-wrapper {
+    position: relative;
+    height: 100%;
+    min-height: 430px; 
+    overflow: hidden;
+}
+
+    .adhesion-image {
+        width: 100%;
+        margin-left: -60px;
+        border-radius: none;
+    }
+
+
+    .adhesion-form-box {
+        position: absolute;
+        top: 50%;
+        left: 60%; 
+        transform: translateY(-50%);
+        width: 400px;          
+        background: white;
+        padding: 30px;
+        border-radius: none ;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    .adhesion-form-box input,
+    .adhesion-form-box select {
+        height: 48px;
+    }
+
+    @media (max-width: 992px) {
+        .adhesion-form-box {
+            position: static;
+            transform: none;
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+
+.temoignages-section {
+    width: 100%;
+    height: 350px;
+    background: #0f253e; 
+    padding: 80px 0;
+    position: relative;
+}
+
+.nav-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+    color: #fff;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav-btn:hover {
+    background: rgba(255, 255, 255, 0.35);
+}
+
+.temoignage-card {
+    width: 450px;
+    height: 300px;
+    background: white;
+    padding: 25px;
+    border-radius: none;
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    transform: translateY(-50%);
+    max-width: 450px;
+}
+
+.client-img {
+    width: 95px;
+    height: 95px;
+    border-radius: none;
+    object-fit: cover;
+}
+
+.quote-icon {
+    width: 38px;
+    height: 38px;
+    background: #e60023;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+/*  NOS RÉUSSITES  */
+.reussites-section {
+    background: #f2f5f9;
+}
+
+.blog-card {
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.blog-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+
+        
+/*  FOOTER  */
+.footer-section {
+    background: #031a32;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #d0d6e2;
+    transition: 0.2s;
+}
+
+.footer-links a:hover {
+    color: #e60023;
+}
+
+.footer-post-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.footer-photo {
+    width: 100%;
+    height: 65px;
+    border-radius: 4px;
+    object-fit: cover;
+}
