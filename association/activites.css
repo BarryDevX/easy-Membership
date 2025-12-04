@@ -1,0 +1,116 @@
+/* NAVBAR */
+
+.nav-hover:hover {
+    color: #dc3545 !important;
+}
+
+.dropdown-item:hover {
+    color: #dc3545 !important;
+    background-color: #f8f9fa !important;
+}
+
+.header-section {
+    height: 300px;
+    background-image: url(../assets/hamidou/myimage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+a {
+    text-decoration: none;
+}
+
+.s2 h2 {
+    color: #FF3147;
+    text-align: center;
+} 
+
+.s2 p {
+    text-align: center;
+    font-size: 2em;
+}
+.p1 {
+    font-size: 1em;
+}
+ul {
+    gap: 30px;
+}
+li {
+    list-style: none;
+}
+
+.img-box {
+    position: relative;
+    overflow: hidden;
+}
+.img-box img {
+    display: block;
+    transition: 0.4s ease-in-out;
+    filter: brightness(65%);
+}
+.img-box:hover img {
+    filter: brightness(40%);
+}
+.btn-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+/* TEMOIGNAGE */
+.testimonial-section {
+    background: url('../assets/hamidou/myimage.jpg') center/cover no-repeat;
+    position: relative;
+}
+
+.testimonial-section::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+}
+
+.testimonial-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.testimonial-box {
+    width: 380px;
+    border-radius: 12px;
+}
+    /*  FOOTER  */
+.footer-section {
+    background: #031a32;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #d0d6e2;
+    transition: 0.2s;
+}
+
+.footer-links a:hover {
+    color: #e60023;
+}
+
+.footer-post-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.footer-photo {
+    width: 100%;
+    height: 65px;
+    border-radius: 4px;
+    object-fit: cover;
+}
